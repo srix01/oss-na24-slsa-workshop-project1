@@ -6,11 +6,11 @@ on:
       image:
         description: "The OCI image name. This must not include a tag or digest."
         type: string
-        default: "docker.io/laurentsimon/oss-na24-slsa-workshop-project1-echo-server"
+        default: "docker.io/srix/oss-na24-slsa-workshop-project1-echo-server"
       digest:
         description: "The OCI image digest. The image digest of the form '<algorithm>:<digest>' (e.g. 'sha256:abcdef...')"
         type: string
-        default: "sha256:51c374c1af56022fdc75aec399d9694e1559338544d78b788a515bdd7278ebf5"
+        default: "sha256:55ac71c06fc9ea72774390d53b6ce9057cf47e7404eace1779a30674ae0a5e76"
       environment:
         type: choice
         description: Environment to use
