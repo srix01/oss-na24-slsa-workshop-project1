@@ -34,7 +34,7 @@ jobs:
       id-token: write # for creating OIDC tokens for signing.
       packages: write # for uploading attestations.
       contents: read # To read the repo.
-    uses: srix01/oss-na24-slsa-workshop-organization/.github/workflows/image-publisher.yml@main
+    uses: srix01/oss-na24-slsa-workshop-organization/blob/main/.github/workflows/image-publisher.yml
     with:
       environment: ${{ inputs.environment }}
       image: ${{ inputs.image }}
