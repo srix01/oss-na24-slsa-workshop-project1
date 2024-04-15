@@ -6,7 +6,7 @@ on:
       image:
         description: "The OCI image name. This must not include a tag or digest."
         type: string
-        default: "docker.io/srix/oss-na24-slsa-workshop-project1-echo-server"
+        default: "docker.io/srix01/oss-na24-slsa-workshop-project1-echo-server"
       digest:
         description: "The OCI image digest. The image digest of the form '<algorithm>:<digest>' (e.g. 'sha256:abcdef...')"
         type: string
